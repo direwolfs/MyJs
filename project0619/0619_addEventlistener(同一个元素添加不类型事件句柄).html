@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<button id="myBtn">test</button>
+<p id="demo"></p>
+<script type="text/javascript">
+	document.getElementById("myBtn").addEventListener("mouseover",function()
+	{
+		document.getElementById("demo").innerHTML+="mousover</br>";
+	});
+	document.getElementById("myBtn").addEventListener("click",function()
+	{
+		document.getElementById("demo").innerHTML+="clicked</br>";
+	});
+	document.getElementById("myBtn").addEventListener("mouseout",function()
+	{
+		document.getElementById("demo").innerHTML+="mousout</br>";
+	});
+</script>
+</body>
+</html>

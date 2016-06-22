@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p id="demo"></p>
+<script type="text/javascript">
+	var str="i love you forever you know i love you";
+	var n1=str.indexOf("love");//字符串使用 indexOf() 来定位字符串中某一个指定的字符首次出现的位置
+	var n2=str.lastIndexOf("love");//lastIndexOf() 方法在字符串末尾开始查找字符串出现的位置
+	document.getElementById("demo").innerHTML=(n1+1)+"<br>"+(n2+1);//字符的索引是从0开始的 故要+1
+</script>
+</body>
+</html>

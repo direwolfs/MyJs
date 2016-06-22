@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function person(firstname)
+	{
+		this.firstname=firstname;
+		this.changeName=changeName;
+		function changeName(name)
+		{
+			this.firstname=name;
+		}
+	}
+mygirlfriend=new person("wang yu wei");
+mygirlfriend.changeName("ww");
+document.write(mygirlfriend.firstname);
+</script>
+</body>
+</html>

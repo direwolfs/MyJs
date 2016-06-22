@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>替换喜欢为爱</p>
+<button onclick="myFunction()">点击替换</button>
+<p id="demo">我喜欢你</p>
+<script type="text/javascript">
+	function myFunction()
+	{
+		var str=document.getElementById("demo").innerHTML;
+		var txt=str.replace("喜欢","爱");
+		document.getElementById("demo").innerHTML=txt;
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div id="div1">
+<p>这是一个段落</p>
+<p>这是另外一个段落</p>
+</div>
+<script type="text/javascript">
+	var para=document.createElement("p");
+	var node=document.createTextNode("这是一个新段落");
+	para.appendChild(node);
+	document.getElementById("div1").appendChild(para);
+</script>
+</body>
+</html>
