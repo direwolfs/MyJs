@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>confirm</title>
+</head>
+<body>
+<p>点击按钮，显示确认窗口</p>
+<button onclick="myFunction()">try it</button>
+<p id="demo"></p>
+<script type="text/javascript">
+	function myFunction()
+	{
+		var x;
+		var r=confirm("选择确认或者取消");
+		if (r==true)
+		 {
+		 	x="按下了\"确认\"";
+		 	document.getElementById("demo").innerHTML=x+"</br>";
+		 }
+		  else
+		   {
+		   	x="按下了\"取消\"";
+		   	document.getElementById("demo").innerHTML=x+"</br>";
+		   }
+		   //document.getElementById("demo").innerHTML=x;
+	}
+</script>
+</body>
+</html>
