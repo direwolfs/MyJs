@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p id="demo"></p>
+<script type="text/javascript">
+//var x=document.cookie;
+//document.getElementById("demo").innerHTML=x.username;
+//document.cookie="username=wang wei";
+//document.write(document.cookie);
+function setCookie(cname,cvalue,exdays)
+{
+var d = new Date();
+d.setTime(d.getTime()+(1000));
+var expires = "expires="+d.toGMTString();
+document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+</script>
+</body>
+</html>
